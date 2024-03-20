@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas na tela.</h1>
+    <h2>Aqui temos por tamaho da tela</h2>
+    
+    <p>tente abir este site em vários dispositivos diferentes ou simplesmente altere o tamanha do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/P_M_G/arvoreP.JPG">
+    <source media="(max-width: 1050px)" srcset="img/P_M_G/arvoreM.JPG">
+    <img src="img/P_M_G/arvoreG.JPG"  alt="Imagem flexivel">
+    </picture>
+    
+    
+    
+    <h2>Aqui temos por orientacao da tela</h2>
+    <p>Mude a  orientacao da tela para ver o resultado   </p>
+    <picture>
+        <source media="(orientation: portrait)" srcset="img/LandscapePortrait/EmerosnTefeLake-p.JPG">
+        <source media="(orientation: landscape)" srcset="/img/LandscapePortrait/EmerosnTefeLake.JPG">
+        <img src="NO-IMAGE.jpg" alt="Seu navegador não tem suporte para o elemento picture">
+    </picture>
+
+    <picture>
+        <source media="(orientation: portrait)" srcset="img/LandscapePortrait/fungos2.JPG">
+        <source media="(orientation: landscape)" srcset="/img/LandscapePortrait/fungos1.JPG">
+        <img src="NO-IMAGE.jpg" alt="Seu navegador não tem suporte para o elemento picture">
+    </picture>
+
+</body>
+</html>
+
+
